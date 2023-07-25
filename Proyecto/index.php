@@ -56,7 +56,7 @@
         <div class="row">
           <div class="background">
             <div class="header-logo1">
-          <a href="index.html"><img src="Imagenes/Loguito.png" height="280px" alt=""></a>
+          <a href="index.php"><img src="Imagenes/Loguito.png" height="280px" alt=""></a>
         </div>
             <h2>¡Descubre y adquiere lo más nuevo qué hay en el mercado! </h2>
             <P><a href="shop.html" class="primary-btn"></a></P>
@@ -66,7 +66,7 @@
     </section>
           <nav class="header-menu">
             <ul>
-              <li><a href="index.html"> Inicio </a></li>
+              <li><a href="index.php"> Inicio </a></li>
                <li><a href="shop.html"> Tienda </a></li>
                <li><a href="login.html"> Entrar </a></li>  
             </ul>

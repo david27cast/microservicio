@@ -1,0 +1,392 @@
+html, body {
+  /*Espcifica la altura del area del contenido HTML*/
+	height: 100%;
+	/*Define el tipo de fuente, si se utilizan fuentes de Google, 
+	aquÃ© se especifica el nombre de la fuente con comillas simple '' */
+	font-family: 'Clímate+Crisis';
+}
+/* Regla que aplica a todos los parrafos*/
+p {
+	/*TamaÃ±o de fuenta*/
+	font-size: 15px;
+	/*Tipo de fuente de Google*/
+  font-family: 'Tilt+Prism';
+    /*Color de texto en pÃ¡rrafos*/
+	color: #000000;
+	/*Grueso de la fuente*/
+	font-weight: bold;
+	/*Altura entre lÃ­neas de texto*/
+	line-height: 25px;
+	/*Margen definido en los 4 lados en el orden
+	Arriba | Derecha | Abajo | Izquierda*/
+	margin: 0 0 15px 0;
+}
+
+/*Selector de clase que aplica un estilo de 
+botÃ³n a las ligas <a></a>*/
+.primary-btn {
+	/* Especifica el tipo de cuadro de representaciÃ³n utilizado*/
+	display: inline-block;
+	/*TamaÃ±o de letra*/
+	font-size: 13px;
+	/*Grueso de la fuente*/
+	font-weight: 500;
+	/*Define el texto en mayÃºsculas*/
+	text-transform: uppercase;
+	/*Relleno Arriba-Abajo primer valor,  Izquierda-Derecha segundo valor*/ 
+	padding: 14px 30px;
+	/*Color de texto*/
+	color: #030303;
+	/*Color de fondo*/
+	background: #a1a1a1
+	/*Espacio horizontal entre letras*/
+	letter-spacing: 4px;
+}
+/*Selector de clase que aplica un estilo de 
+botÃ³n cuando el mouse esta sobre la liga*/
+.primary-btn:hover {
+	/*Oculta el subrayado de la liga*/
+	text-decoration: none;
+	/*Color de texto*/
+	color: #000000;
+	/*Color de fondo*/
+	background: #c2c2c2
+}
+.icono {
+  height:20px;
+}
+.container{
+  text-align: center;
+}
+/*
+.row{
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+.one-column{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.quarter{
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.half-column{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.onethird-column{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}*/
+.container-fluid
+{
+  padding: 0px 0px;
+}
+.header{
+  Background-image: linear-gradient(rgba(0, 194, 150, 0.2), rgba(0, 194, 150, 0.3)), url(../Imagenes/);
+  padding: 0px 0px;
+}
+.header-top{
+  background: #ffffff;
+  padding: 15px 15px;
+}
+.header-top-center p{
+  color: #ffffff;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.header-logo{
+  margin:0; padding:0
+}
+.header-logo1 a{
+  margin:20; padding:0;
+}
+.header-logo1{
+  margin:0 auto; 
+  padding:0px;
+  height:280px;
+}
+
+.header-logo a{
+  display: inline-block;
+}
+.header-menu {
+  padding: 0px 0 0px;
+  text-align: center;
+   margin-right: 10px;
+  margin-top: 10px;
+  background-color: #00FF00;
+}
+
+.header-menu ul li{
+  list-style: none;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+}
+.header-menu ul li a{
+  font-size:25px;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.header-menu ul li a:hover{
+  color: #ffffff;
+}
+.header-nav-option{
+  text-align: center;
+  text-shadow: 4px 4px #100f0f;
+}
+.header-nav-option a span{
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+.header-nav-option .price {
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin-left: -5px;
+  display: inline-block;
+  position: relative;
+}
+.bgimage{
+  width: 100%;
+  height: 380px;
+  background-image: linear-gradient(rgba(50, 194, 150, 0.2), rgba(50, 194, 150, 0.3)), url(../Imagenes/Fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bgimage .background
+{
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.bgimage .background h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-shadow: 6px 4px #000000;
+  
+}
+.icon-bg{
+  background-color:  #000000;
+  padding:10px;
+}
+
+.icon
+{
+font-size:30px;
+  color:#ffffff;
+  line-height:0px;
+  padding-left:0px;
+  display: inline-block;
+  position: relative;
+ /* float: left punto 10*/
+}
+
+.icon-content{
+float: left;
+  margin-left:10px;
+  text-align: center;
+  margin-right:10px;
+  color:#ffffff;
+  
+}
+
+.icon-caption{
+font-size:20px;
+ line-height:18px;
+  text-align: center;
+  font-weight:700px;
+  color:white;
+  display:block;
+  position:relative;
+  
+}
+
+.icon-subcaption{
+  font-size:14px;
+  display:block;
+  position:relative;
+}
+
+.categories{
+  padding: 3em;
+  padding-left: 100px;
+}
+
+.offer{
+  padding:40px 15% opx;
+}
+
+.offer h2{
+color:black;
+  line-height:72px;
+  font-size:34px;
+  
+}
+
+.offer h2 span{
+  font-weight:700px; 
+  color:black;
+}
+
+
+.offer-center{
+  position:relative;
+  z-index: 5;
+}
+
+.offer-center img{
+  min-width: 100%;
+}
+
+.offer-price{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  background:#757575;
+  padding-top: 14px;
+   text-align:center;
+  position:absolute;
+  right:50px;
+  top:-36px;
+}
+
+.offer-price span{
+display: block;
+  font-size:15px;
+  color:black;
+  margin-bottom:4px;
+  
+}
+
+.offer-price h5{
+color:black;
+  font-size:20px;
+  font-weight:700px;
+}
+
+.offer-counter span{
+color:#1e8dd2;
+  font-size:14px;
+  font-weight:700px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  margin-bottom:15px;
+  display:block;
+}
+
+.offer-counter h2{
+color:#828282;
+  font-weight:700px;
+  /Altura entre líneas de texto/
+	line-height: 46px;
+/Altura entre líneas de texto/
+	margin-bottom:25px;
+  
+}
+
+
+.offer-counter .offer-counter-clock{
+margin-bottom: 25px;
+overflow: hidden;
+  margin-left: -30px;
+}
+
+
+.offer-counter .offer-counter-clock .cd-item{
+width: 25%;
+  float: left;
+  position: relative;
+  margin-bottom:25px;
+  text-align:center;
+}
+
+
+
+.offer-counter .offer-counter-clock .cd-item:after {
+position: absolute;
+  right: 0;
+  top: 7px;
+  content: ":";
+  font-size:24px;
+  font-weight:700;
+  color:chocolate;
+}
+
+.offer-counter .offer-counter-clock .cd-item:last-child:after {
+display: none;
+  
+}
+
+.offer-counter .offer-counter-clock .cd-item span{
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  display: block;
+}
+
+.offer-counter .offer-counter-clock .cd-item p{
+
+  margin-bottom: 0px;
+}
+
+.whatsapp{
+padding-top:10px;
+position:fixed;
+  width:60px;
+  height:60px;
+  bottom:60px;
+  right:40px;
+  z-index:100;
+  background-color: #ababab;
+  list-style: none;
+  color: #000000;
+  border-radius:50px;
+  text-align: center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #000000;
+}
+
+.my-whatsapp{
+  margin-top:16px;
+}
+
+
+footer{
+padding: 2px;
+  background:black;
+  text-align: center;
+  /margen superior/
+  margin-top:10px;
+  color:white;
+}
+
+footer span a{
+font-size: 40px;
+  color:white;
+  text-decoration: none; 
+}
+.color
+{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
